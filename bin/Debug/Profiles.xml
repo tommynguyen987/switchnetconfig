@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<ConfigWrapper xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profiles>
+    <anyType xsi:type="Profile">
+      <Name>testing</Name>
+      <NICProfiles>
+        <anyType xsi:type="NICProfile">
+          <Name>[00000000] Realtek PCIe GBE Family Controller</Name>
+          <IP />
+          <Subnet />
+          <Gateway />
+          <DNS />
+          <UseDHCP>true</UseDHCP>
+        </anyType>
+        <anyType xsi:type="NICProfile">
+          <Name>[00000002] 802.11n Wireless LAN Card</Name>
+          <IP />
+          <Subnet />
+          <Gateway />
+          <DNS />
+          <UseDHCP>false</UseDHCP>
+        </anyType>
+        <anyType xsi:type="NICProfile">
+          <Name>[00000001] Intel(R) Ethernet Connection (2) I219-V</Name>
+          <IP />
+          <Subnet />
+          <Gateway />
+          <DNS />
+          <UseDHCP>false</UseDHCP>
+        </anyType>
+        <anyType xsi:type="NICProfile">
+          <Name>[00000005] VMware Virtual Ethernet Adapter for VMnet1</Name>
+          <IP />
+          <Subnet />
+          <Gateway />
+          <DNS />
+          <UseDHCP>false</UseDHCP>
+        </anyType>
+      </NICProfiles>
+      <IEProfile>
+        <UseProxy>true</UseProxy>
+        <ProxyName />
+        <BypassLocal>true</BypassLocal>
+        <BypassAddresses />
+      </IEProfile>
+    </anyType>
+  </Profiles>
+</ConfigWrapper>

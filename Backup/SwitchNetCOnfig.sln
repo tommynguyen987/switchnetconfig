@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SwitchNetConfig", "SwitchNetConfig.csproj", "{40CF9C7E-2DDC-4AF0-92D5-C2C589F6A27E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{40CF9C7E-2DDC-4AF0-92D5-C2C589F6A27E}.Debug.ActiveCfg = Debug|.NET
+		{40CF9C7E-2DDC-4AF0-92D5-C2C589F6A27E}.Debug.Build.0 = Debug|.NET
+		{40CF9C7E-2DDC-4AF0-92D5-C2C589F6A27E}.Release.ActiveCfg = Release|.NET
+		{40CF9C7E-2DDC-4AF0-92D5-C2C589F6A27E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
